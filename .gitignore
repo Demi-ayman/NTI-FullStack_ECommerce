@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment and private files
+.env
+.env.local
+uploads/
+logs/
+
+# Angular build output
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: temporary demo folder
+demo/
