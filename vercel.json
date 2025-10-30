@@ -19,6 +19,10 @@
       "dest": "/backend/server.js"
     },
     {
+      "src": "/assets/(.*)",
+      "dest": "/frontend/dist/frontend/browser/assets/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/frontend/dist/frontend/browser/index.html"
     }
