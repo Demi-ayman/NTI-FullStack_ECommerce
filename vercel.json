@@ -9,21 +9,21 @@
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist/frontend"
+        "distDir": "frontend/dist/frontend/browser"
       }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/server.js"
+      "dest": "/backend/server.js"
     },
     {
       "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "dist/frontend/index.html"
+      "dest": "/frontend/dist/frontend/browser/index.html"
     }
   ]
 }
