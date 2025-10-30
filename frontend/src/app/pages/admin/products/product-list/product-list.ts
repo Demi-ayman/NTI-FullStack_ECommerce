@@ -11,7 +11,7 @@ import { CategoryService } from '../../../../core/services/category.service';
 
 @Component({
   selector: 'app-product-list',
-  imports: [CommonModule, RouterLink, FormsModule,ReactiveFormsModule],
+  imports: [CommonModule, FormsModule,ReactiveFormsModule],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css'
 })
